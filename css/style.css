@@ -1,0 +1,110 @@
+/*
+ * Spy Analytics
+ * (c) 2013. Aleksej Sytnik
+ */
+#toplevel_page_heatmaptracker div.wp-menu-image {
+	background: transparent url(../images/icon.png) no-repeat  scroll center 0;
+}
+
+#toplevel_page_heatmaptracker:hover div.wp-menu-image,
+#toplevel_page_heatmaptracker.current .wp-menu-image {
+	background: transparent url(../images/icon.png) no-repeat  scroll center -28px;
+}
+.icon32-spy {
+	background: transparent url(../images/icon32.png) no-repeat  scroll center 0;
+}
+.viber-boot {
+	position: relative;
+}
+.viber-boot .tab-content-main {
+border-left: 1px solid #DDD !important;
+border-right: 1px solid #DDD !important;
+padding-bottom: 10px;
+}
+.viber-boot .help-ico {
+	display: inline-block;
+	width: 21px;
+	height: 25px;
+	background: url(../images/help.png) no-repeat  0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	line-height: 25px;
+}
+.viber-boot .att {
+	background: url(../images/att.png) no-repeat  0 0;
+}
+.viber-boot a:hover.help-ico {
+	background-position: 0 100%;
+}
+.viber-boot .more-to-right {
+	margin-left: 45px;
+}
+.viber-boot .current-page {
+	width: auto !important;
+	margin: 0 !important;
+}
+.viber-boot #pane2 table,
+.viber-boot #pane2 table td,
+.viber-boot .widefat thead tr th,
+.viber-boot .widefat tfoot tr th,
+.control-group label{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif !important;
+	font-size: 13px;
+}
+.viber-boot .widefat thead tr th,
+.viber-boot .widefat tfoot tr th,
+.control-group label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.viber-boot tr td.column-os_version {
+	text-transform: lowercase;
+}
+.viber-boot .widefat .btn-mini {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	line-height: 1px;
+}
+.viber-boot select, 
+.viber-boot textarea,
+.viber-boot input[type="text"],
+.viber-boot input[type="password"],
+.viber-boot input[type="datetime"], 
+.viber-boot input[type="datetime-local"], 
+.viber-boot input[type="date"], 
+.viber-boot input[type="month"], 
+.viber-boot input[type="time"], 
+.viber-boot input[type="week"], 
+.viber-boot input[type="number"], 
+.viber-boot input[type="email"], 
+.viber-boot input[type="url"], 
+.viber-boot input[type="search"],
+.viber-boot input[type="tel"],
+.viber-boot input[type="color"],
+.viber-boot .uneditable-input {
+	height: auto !important;
+}
+.rating .progress {
+	height: 26px;
+	position: relative;
+}
+.rating .progress a:hover{
+	text-decoration: none;
+}
+.rating .progress a {
+	position: absolute;
+	font-size: 13px;
+	left: 5px;
+	top: 5px;
+	white-space: nowrap;
+}
+.rating .progress a.l-down {
+	color: #fff;
+}
+.rating .progress .bar {
+position: relative;
+overflow: hidden;
+}
+.textalign-right {
+	text-align: right;
+}
